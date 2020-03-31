@@ -5,7 +5,7 @@ from pprint import pprint
 
 def connect():
     # Connect to MongoDB
-    client = MongoClient("<your connetion string")
+    client = MongoClient("<your connection string")
     # Creating a database object referencing new database called "business"
     db = client.business
     return db
